@@ -1,5 +1,47 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: lightblue;
+    margin: 300px;
+}
+
+.mensaje {
+    
+    
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: deepskyblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    justify-content: space-between;
+    border-radius: 20px;
+    
+    
+
+}
+
+.boton {
+
+    background-color: darkblue;
+    color: white;
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px; 
+
+    
+   /*background: green;
+    color: white;
+    border: white;
+    display: flex;
+    align-items: center;
+    position: static;
+    margin: 0%;*/
 }
